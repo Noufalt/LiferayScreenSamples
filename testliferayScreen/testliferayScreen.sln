@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loginScreenLetiOS", "loginScreenLetiOS\loginScreenLetiOS.csproj", "{C550C550-A712-47AB-A9AE-E4E6593008B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testIOSTemp", "testIOSTemp\testIOSTemp.csproj", "{1585655B-A0E1-449C-A916-CC55B51A6D6E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicLoginScrnLet", "BasicLoginScrnLet\BasicLoginScrnLet.csproj", "{A6C6E787-FD4D-4C94-B453-13D0E920F2FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicIOSLogin", "BasicIOSLogin\BasicIOSLogin.csproj", "{5004DA3B-B63E-4505-9C33-1F8AEDB03107}"
@@ -25,14 +23,6 @@ Global
 		{C550C550-A712-47AB-A9AE-E4E6593008B8}.Debug|iPhone.Build.0 = Debug|iPhone
 		{C550C550-A712-47AB-A9AE-E4E6593008B8}.Release|iPhone.ActiveCfg = Release|iPhone
 		{C550C550-A712-47AB-A9AE-E4E6593008B8}.Release|iPhone.Build.0 = Release|iPhone
-		{1585655B-A0E1-449C-A916-CC55B51A6D6E}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{1585655B-A0E1-449C-A916-CC55B51A6D6E}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{1585655B-A0E1-449C-A916-CC55B51A6D6E}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{1585655B-A0E1-449C-A916-CC55B51A6D6E}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{1585655B-A0E1-449C-A916-CC55B51A6D6E}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{1585655B-A0E1-449C-A916-CC55B51A6D6E}.Debug|iPhone.Build.0 = Debug|iPhone
-		{1585655B-A0E1-449C-A916-CC55B51A6D6E}.Release|iPhone.ActiveCfg = Release|iPhone
-		{1585655B-A0E1-449C-A916-CC55B51A6D6E}.Release|iPhone.Build.0 = Release|iPhone
 		{A6C6E787-FD4D-4C94-B453-13D0E920F2FA}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{A6C6E787-FD4D-4C94-B453-13D0E920F2FA}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{A6C6E787-FD4D-4C94-B453-13D0E920F2FA}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
