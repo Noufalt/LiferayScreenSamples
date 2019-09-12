@@ -144,6 +144,7 @@
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
         <InterfaceDefinition Include="Main.storyboard" />
+        <InterfaceDefinition Include="InitialStoryboard.storyboard" />
     </ItemGroup>
     <ItemGroup>
         <None Include="Info.plist" />
@@ -159,6 +160,14 @@
         <Compile Include="Login.cs" />
         <Compile Include="Login.designer.cs">
             <DependentUpon>Login.cs</DependentUpon>
+        </Compile>
+        <Compile Include="InitalUiController.cs" />
+        <Compile Include="InitalUiController.designer.cs">
+          <DependentUpon>InitalUiController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="LoginScreenLet.cs" />
+        <Compile Include="LoginScreenLet.designer.cs">
+          <DependentUpon>LoginScreenLet.cs</DependentUpon>
         </Compile>
     </ItemGroup>
     <ItemGroup>
