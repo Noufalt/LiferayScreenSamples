@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<com.liferay.mobile.screens.viewsets.defaultviews.auth.login.LoginView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:liferay="http://schemas.android.com/apk/res-auto"
+	style="@style/default_screenlet"
+	android:background="#ffffffff"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:src="@drawable/headerpanel"
+		android:scaleType="fitCenter"/>
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+		android:text="Please log in to PPA "
+		android:textColor="#ff69a4b2"
+		android:textStyle="bold"
+		android:textSize="14dp" />
+	<LinearLayout
+		android:id="@+id/basic_authentication_login"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<EditText
+			android:id="@+id/liferay_login"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="15dp"
+			android:drawablePadding="20dp"
+			android:inputType="text"
+			android:hint="Email"
+			android:paddingLeft="15dp"
+			android:labelFor="@+id/liferay_login"
+			android:textColor="#ff69a4b2"
+			android:textSize="16dp" />
+		<EditText
+			android:id="@+id/liferay_password"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="15dp"
+			android:drawablePadding="20dp"
+			android:hint="Password"
+			android:inputType="textPassword"
+			android:paddingLeft="18dp"
+			android:labelFor="@+id/liferay_password"
+			android:textColor="#ff69a4b2"
+			android:textSize="16dp" />
+		<Button
+			android:id="@+id/liferay_login_button"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#ff69a4b2"
+			android:textColor="#fffdfdfd"
+			android:text="Log In"
+			android:requiresFadingEdge="horizontal"
+			android:fadingEdge="horizontal"
+			android:fadingEdgeLength="10dp" />
+	</LinearLayout>
+
+</com.liferay.mobile.screens.viewsets.defaultviews.auth.login.LoginView>
+
